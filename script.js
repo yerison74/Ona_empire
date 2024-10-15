@@ -21,7 +21,7 @@ function createWhatsAppLink(product) {
     const message = encodeURIComponent(`Hola, me interesa el producto "${product.name}" por RD$${product.price}. ¿Está disponible?`);
     return `https://wa.me/${whatsappNumber}?text=${message}`;
 }
-
+ 
 function renderProducts() {
     const productGrid = document.getElementById('productGrid');
     products.forEach(product => {
