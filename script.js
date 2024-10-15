@@ -15,7 +15,7 @@ const products = [
     { id: 14, name: "Collar de Perlas con Aguacate", price: 950, image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4933817065823907349-5smP3d1lmIF6IrIBxPj2p7qehcnAWC.jpg" },
 ];
 
-const whatsappNumber = "+8094013219"; // Reemplaza esto con tu número de WhatsApp
+const whatsappNumber = "+18094013219"; // Reemplaza esto con tu número de WhatsApp
 
 function createWhatsAppLink(product) {
     const message = encodeURIComponent(`Hola, me interesa el producto "${product.name}" por RD$${product.price}. ¿Está disponible?`);
